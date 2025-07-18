@@ -1,0 +1,244 @@
+# Build directories
+build/
+Build/
+out/
+Debug/
+Release/
+dist/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Ninja build files
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Make files
+Makefile
+*.mk
+
+# Object files
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.lss
+*.sym
+*.tmp
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# STM32CubeMX generated files (keep project files but ignore some generated content)
+# Keep .ioc file but ignore some generated reports
+*.log
+*.wpu
+*.wtmp
+
+# IDE files
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Eclipse
+.metadata
+.project
+.cproject
+.settings/
+*.launch
+
+# Keil uVision
+*.uvprojx
+*.uvoptx
+*.uvguix
+*.uvguix.*
+*.bak
+*.dep
+*.d
+*.crf
+*.lst
+*.map
+*.sym
+*.axf
+*.htm
+*.lnp
+*.build_log.htm
+*.cdb
+*.elf
+*.hex
+*.bin
+
+# IAR Embedded Workbench
+*.ewp
+*.eww
+*.ewd
+*.dep
+*.d
+*.pbd
+*.pbw
+*.pbi
+*.pbi.*
+*.wsdt
+*.dni
+*.wspos
+*.dbgdt
+*.mac
+*.xcl
+*.sim
+*.r43
+*.r90
+*.prj
+*.ptp
+*.edi
+*.cout
+*.out
+*.hex
+*.bin
+*.txt
+*.sfr
+*.prn
+*.lst
+*.log
+*.map
+*.sym
+*.xcl
+*.browse
+*.tmp
+*.dep
+*.d
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.out
+*.axf
+*.map
+*.list
+*.lss
+*.sym
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Archives
+*.7z
+*.rar
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Custom ignore patterns (add your specific files here)
+# Add any project-specific files you want to ignore
+
+# Keep important configuration files
+!.gitignore
+!.gitattributes
+!.gitmodules
+!CMakeLists.txt
+!CMakePresets.json
+!*.ioc
+!*.cfg
+!*.ld
+!*.s
+!*.S
